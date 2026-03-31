@@ -55,7 +55,7 @@ brew upgrade localports
 
 ### 📦 수동 설치
 
-[GitHub Releases](https://github.com/localports/localports/releases/latest)에서 DMG를 다운로드 후 Applications 폴더에 드래그하세요.
+[GitHub Releases](https://github.com/localports/homebrew-tap/releases/latest)에서 DMG를 다운로드 후 Applications 폴더에 드래그하세요.
 
 > ⚠️ 최초 실행 시 우클릭 → "열기"를 선택해야 할 수 있습니다 (Apple 공증 미적용)
 
@@ -111,7 +111,7 @@ brew upgrade localports
 
 ### 📦 Manual Install
 
-Download the DMG from [GitHub Releases](https://github.com/localports/localports/releases/latest) and drag `LocalPorts.app` to Applications.
+Download the DMG from [GitHub Releases](https://github.com/localports/homebrew-tap/releases/latest) and drag `LocalPorts.app` to Applications.
 
 > ⚠️ On first launch, you may need to right-click → "Open" (ad-hoc signed, not notarized by Apple)
 
@@ -167,7 +167,7 @@ brew upgrade localports
 
 ### 📦 Instalación manual
 
-Descarga el DMG desde [GitHub Releases](https://github.com/localports/localports/releases/latest) y arrastra `LocalPorts.app` a Aplicaciones.
+Descarga el DMG desde [GitHub Releases](https://github.com/localports/homebrew-tap/releases/latest) y arrastra `LocalPorts.app` a Aplicaciones.
 
 > ⚠️ En la primera ejecución, es posible que necesites hacer clic derecho → "Abrir" (firmado ad-hoc, no notarizado por Apple)
 
