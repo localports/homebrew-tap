@@ -1,8 +1,14 @@
 # 🔌 LocalPorts
 
+<div align="center">
+
 **macOS menu bar app that monitors your localhost servers at a glance.**
 
-Developing locally often means juggling multiple servers — Next.js on `:3000`, API on `:8080`, Vite on `:5173`... LocalPorts lives in your menu bar and keeps track of all of them.
+![macOS](https://img.shields.io/badge/macOS-14.0+-blue)
+![Swift](https://img.shields.io/badge/Swift-6.0+-orange)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+</div>
 
 [한국어](#-한국어) | [English](#-english)
 
@@ -11,6 +17,8 @@ Developing locally often means juggling multiple servers — Next.js on `:3000`,
 ## 🇰🇷 한국어
 
 ### 소개
+
+개발할 때 Next.js는 `:3000`, API는 `:8080`, Vite는 `:5173`... 여러 서버를 동시에 돌리다 보면 뭐가 어디서 돌아가는지 헷갈리죠?
 
 LocalPorts는 현재 실행 중인 localhost 서버를 메뉴바에서 한눈에 확인할 수 있는 macOS 앱입니다.
 
@@ -26,13 +34,28 @@ LocalPorts는 현재 실행 중인 localhost 서버를 메뉴바에서 한눈에
 - 🌙 **테마 지원** — 다크 / 라이트 / 시스템 모드 전환
 - 🪶 **가벼움** — 네이티브 Swift/SwiftUI. Electron 없음
 
-### 📦 설치
+### 📥 설치 방법 (Homebrew)
 
+터미널을 열고 아래 명령어를 순서대로 입력하세요.
+
+#### 1단계: 저장소 추가 (Tap)
 ```bash
-brew install --cask localports/tap/localports
+brew tap localports/tap
 ```
 
-또는 [GitHub Releases](https://github.com/localports/localports/releases/latest)에서 DMG를 다운로드하세요.
+#### 2단계: 앱 설치
+```bash
+brew install --cask localports
+```
+
+#### 업데이트
+```bash
+brew upgrade localports
+```
+
+### 📦 수동 설치
+
+[GitHub Releases](https://github.com/localports/localports/releases/latest)에서 DMG를 다운로드 후 Applications 폴더에 드래그하세요.
 
 > ⚠️ 최초 실행 시 우클릭 → "열기"를 선택해야 할 수 있습니다 (Apple 공증 미적용)
 
@@ -53,7 +76,7 @@ brew uninstall localports
 
 ### About
 
-LocalPorts is a macOS menu bar app that shows all running localhost servers at a glance.
+Developing locally often means juggling multiple servers — Next.js on `:3000`, API on `:8080`, Vite on `:5173`... LocalPorts lives in your menu bar and keeps track of all of them.
 
 ### ✨ Features
 
@@ -67,13 +90,28 @@ LocalPorts is a macOS menu bar app that shows all running localhost servers at a
 - 🌙 **Theme support** — Dark / Light / System mode
 - 🪶 **Lightweight** — Native Swift/SwiftUI. No Electron
 
-### 📦 Install
+### 📥 Install (Homebrew)
 
+Open Terminal and run the following commands:
+
+#### Step 1: Add the tap
 ```bash
-brew install --cask localports/tap/localports
+brew tap localports/tap
 ```
 
-Or download the DMG from [GitHub Releases](https://github.com/localports/localports/releases/latest).
+#### Step 2: Install the app
+```bash
+brew install --cask localports
+```
+
+#### Update
+```bash
+brew upgrade localports
+```
+
+### 📦 Manual Install
+
+Download the DMG from [GitHub Releases](https://github.com/localports/localports/releases/latest) and drag `LocalPorts.app` to Applications.
 
 > ⚠️ On first launch, you may need to right-click → "Open" (ad-hoc signed, not notarized by Apple)
 
