@@ -10,7 +10,7 @@
 
 </div>
 
-[한국어](#-한국어) | [English](#-english)
+[한국어](#-한국어) | [English](#-english) | [Español](#-español)
 
 ---
 
@@ -121,6 +121,62 @@ Download the DMG from [GitHub Releases](https://github.com/localports/localports
 - Apple Silicon or Intel Mac
 
 ### 🗑️ Uninstall
+
+```bash
+brew uninstall localports
+```
+
+---
+
+## 🇪🇸 Español
+
+### Acerca de
+
+Al desarrollar localmente, a menudo ejecutas varios servidores a la vez — Next.js en `:3000`, API en `:8080`, Vite en `:5173`... LocalPorts vive en tu barra de menú y los monitorea todos.
+
+### ✨ Funciones
+
+- 🔍 **Detección en tiempo real** — Se actualiza automáticamente cada 5 segundos
+- 📊 **Detalles del servidor** — Puerto, nombre del proceso, CPU, memoria, tiempo activo, comando
+- 🟢 **Verificación de estado** — Punto verde/rojo según la respuesta HTTP
+- 🌐 **Abrir en navegador** — Un clic para abrir cualquier servidor
+- 📋 **Copiar URL** — Copia `localhost:puerto` al portapapeles
+- 🛑 **Detener servidor** — Detén servidores directamente desde la barra de menú
+- 🔄 **Ordenar** — Por puerto, estado, CPU, memoria o tiempo activo
+- 🌙 **Soporte de temas** — Modo oscuro / claro / sistema
+- 🪶 **Ligero** — Swift/SwiftUI nativo. Sin Electron
+
+### 📥 Instalación (Homebrew)
+
+Abre Terminal y ejecuta los siguientes comandos:
+
+#### Paso 1: Agregar el tap
+```bash
+brew tap localports/tap
+```
+
+#### Paso 2: Instalar la app
+```bash
+brew install --cask localports
+```
+
+#### Actualizar
+```bash
+brew upgrade localports
+```
+
+### 📦 Instalación manual
+
+Descarga el DMG desde [GitHub Releases](https://github.com/localports/localports/releases/latest) y arrastra `LocalPorts.app` a Aplicaciones.
+
+> ⚠️ En la primera ejecución, es posible que necesites hacer clic derecho → "Abrir" (firmado ad-hoc, no notarizado por Apple)
+
+### 🖥️ Requisitos
+
+- macOS 14.0 (Sonoma) o posterior
+- Apple Silicon o Intel Mac
+
+### 🗑️ Desinstalar
 
 ```bash
 brew uninstall localports
